@@ -6,7 +6,7 @@ const Recommends = () => {
     <>
       <section>
         <SectionTitle
-          heading={"Chefs Recommends"}
+          heading={"Customer Recommends"}
           subHeading={"----Should Try----"}>
         </SectionTitle>
         <div className="card bg-base-100 w-96 shadow-xl">

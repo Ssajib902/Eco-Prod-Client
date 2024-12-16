@@ -25,7 +25,7 @@ export const OrderTab = ({ items }) => {
     const currentItems = items.slice(currentPage * itemsPerPage, (currentPage + 1) * itemsPerPage);
 
     return (
-        <>
+        <div className="order-tab-container">
             <Swiper
                 pagination={pagination}
                 modules={[Pagination]}
@@ -34,7 +34,7 @@ export const OrderTab = ({ items }) => {
             >
                 {[...Array(totalPages)].map((_, pageIndex) => (
                     <SwiperSlide key={pageIndex}>
-                        <div className='grid md:grid-cols-3 sm:grid-cols-2 gap-10'>
+                        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-6">
                             {currentItems.map(item => (
                                 <FoodCard
                                     key={item._id}
@@ -48,6 +48,6 @@ export const OrderTab = ({ items }) => {
             <div className="pagination-container">
                 <div className="swiper-pagination"></div>
             </div>
-        </>
+        </div>
     );
 };

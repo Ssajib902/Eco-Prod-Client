@@ -1,7 +1,7 @@
 import React from 'react'
 
 const MenuItem = ({item}) => {
-    const {name, image, price, recipe} = item;
+    const {name, image, price, recipe, category} = item;
   return (
     <>
         <div className='flex space-x-2'>
@@ -9,9 +9,10 @@ const MenuItem = ({item}) => {
             <div>
                 <h3>{name}------</h3>
                 <p>{recipe}</p>
+                <p>{category}</p>
             </div>
             <div>
-                <p className='text-yellow-500'>${price}</p>
+                <p className='text-yellow-500'> ৳ {price}</p>
             </div>
         </div>
     </>
