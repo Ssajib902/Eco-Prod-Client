@@ -116,7 +116,7 @@ const AddItems = () => {
               type="file" className="file-input w-full" />
           </div>
 
-          <button className='btn bg-gradient-to-r bg-amber-600 text-white'>
+          <button className='btn bg-gradient-to-r bg-orange-600 text-white'>
             Add Product <FaUtensils className='ml-4' />
           </button>
         </form>

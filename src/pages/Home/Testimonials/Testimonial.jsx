@@ -24,7 +24,7 @@ const Testimonial = () => {
 
                 <SectionTitle
                     subHeading="What Our Client Say"
-                    heading="Testimonials"
+                    heading="Reviews"
                 ></SectionTitle>
                 <Swiper navigation={true} modules={[Navigation]} className='mySwiper'>
 

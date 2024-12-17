@@ -383,7 +383,7 @@ const Order = () => {
           <input
             type="text"
             id="simple-search"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:bg-orange-400 dark:border-gray-600 dark:placeholder-white dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm 0 block w-full ps-10 p-2.5 dark:bg-orange-400 dark:border-gray-600 dark:placeholder-white dark:text-white"
             placeholder="Search items..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
@@ -392,7 +392,7 @@ const Order = () => {
         </div>
         <button
           type="submit"
-          className="p-2.5 ms-2 text-sm font-medium text-white bg-orange-400 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-orange-400 dark:hover:bg-orange-600 dark:focus:ring-blue-800"
+          className="p-3.5 ms-2 text-sm font-large text-white bg-orange-400 rounded-lg   dark:bg-orange-400 dark:hover:bg-orange-600"
         >
           <svg
             className="w-4 h-4"
